@@ -1,8 +1,24 @@
 # Data Processing Pipeline
 
-Проект для обработки данных из API, сохранения в PostgreSQL, расчета метрик, загрузки в Google Sheets и отправки отчетов по email.
-
 ## Структура проекта
+<pre>
+data-processing-pipeline/
+├── core/
+│   ├── __init__.py
+│   ├── config_manager.py
+│   ├── log_manager.py
+│   └── data_processor.py
+├── services/
+│   ├── __init__.py
+│   ├── api_client.py
+│   ├── database_manager.py
+│   ├── google_sheets_client.py
+│   └── email_sender.py
+├── main.py
+├── requirements.txt
+├── config.ini.example
+└── README.md
+</pre>
 
 
 ## Настройка
