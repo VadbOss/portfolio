@@ -1,0 +1,70 @@
+[API]
+# URL API endpoint
+API_URL = https://b2b.itresume.ru/api/statistics
+
+# Название клиента (ваш логин в системе)
+API_CLIENT = ВАШ_ЛОГИН_ЗДЕСЬ
+
+# API ключ (получить у администратора системы)
+API_CLIENT_KEY = ВАШ_API_КЛЮЧ_ЗДЕСЬ
+
+# Начальная дата для выборки данных (формат: YYYY-MM-DD HH:MM:SS.ffffff)
+API_START = 2023-04-01 12:46:47.860798
+
+# Конечная дата для выборки данных (формат: YYYY-MM-DD HH:MM:SS.ffffff)
+API_END = 2023-04-10 12:46:47.860798
+
+
+[DATABASE]
+# Хост базы данных PostgreSQL
+HOST = localhost
+
+# Порт PostgreSQL (по умолчанию 5432)
+PORT = 5432
+
+# Название базы данных
+NAME = ИМЯ_ВАШЕЙ_БАЗЫ_ДАННЫХ
+
+# Имя пользователя базы данных
+USER = ВАШ_ПОЛЬЗОВАТЕЛЬ_БАЗЫ_ДАННЫХ
+
+# Пароль пользователя базы данных
+PASSWORD = ВАШ_ПАРОЛЬ_БАЗЫ_ДАННЫХ
+
+# Название таблицы для хранения данных
+TABLE_NAME = ИМЯ_ВАШЕЙ_ТАБЛИЦЫ
+
+
+[GOOGLE_SERVICE_ACCOUNT]
+# JSON с credentials для доступа к Google Sheets API
+# Инструкция по получению: https://developers.google.com/sheets/api/quickstart/python
+CREDENTIALS_JSON = {"type": "service_account", "project_id": "ВАШ_PROJECT_ID", "private_key_id": "ВАШ_PRIVATE_KEY_ID", "private_key": "-----BEGIN PRIVATE KEY-----\nВАШ_ПРИВАТНЫЙ_КЛЮЧ\n-----END PRIVATE KEY-----\n", "client_email": "ВАШ_SERVICE_ACCOUNT_EMAIL", "client_id": "ВАШ_CLIENT_ID", "auth_uri": "https://accounts.google.com/o/oauth2/auth", "token_uri": "https://oauth2.googleapis.com/token", "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs", "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ВАШ_SERVICE_ACCOUNT", "universe_domain": "googleapis.com"}
+
+# Ссылка на Google Sheets таблицу
+GOOGLE_SHEATS = https://docs.google.com/spreadsheets/d/ВАШ_ID_ТАБЛИЦЫ/edit
+
+
+[EMAIL]
+# SMTP сервер для отправки email
+SMTP_SERVER = smtp.mail.ru
+
+# Порт SMTP (для mail.ru: 465 для SSL, 587 для TLS)
+PORT = 465
+
+# Email отправителя
+SENDER_EMAIL = ВАШ_EMAIL@mail.ru
+
+# Пароль от email отправителя
+PASSWORD = ВАШ_ПАРОЛЬ_EMAIL
+
+# Email получателя отчетов
+RECEIVER_EMAIL = ПОЛУЧАТЕЛЬ@mail.ru
+
+
+# ===========================================================================
+# ИНСТРУКЦИЯ:
+# 1. Скопируйте этот файл в config.ini:
+#    cp config.ini.example config.ini
+# 2. Заполните все поля, помеченные как "ВАШ_..._ЗДЕСЬ"
+# 3. Не загружайте config.ini в Git (он уже в .gitignore)
+# ===========================================================================

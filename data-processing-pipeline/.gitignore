@@ -1,0 +1,30 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# Логи проекта
+logs/
+
+# Конфигурация с секретами
+config.ini
+*.env
+.env.local
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
