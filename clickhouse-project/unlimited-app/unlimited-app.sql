@@ -31,6 +31,8 @@ top_option AS (
 		argMax(option_name, mb_total) AS top_option_by_spent_mb
 	FROM  
 		traffic_by_option
+	WHERE  
+		option_name != 'Unknown'
 	GROUP BY 
 		account_id
 ),
