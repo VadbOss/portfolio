@@ -73,3 +73,42 @@ FROM
 	sandbox.payment_agg_test pat
 	CROSS JOIN sandbox.payment_agg_model pam
 ;
+WITH a AS (
+	SELECT 
+		toDate(operation_datetime) AS date_id,
+		toUInt64(sum(amount))      AS amount
+	FROM sandbox.payment
+	WHERE   
+		status = 'completed'
+		AND operation_datetime >= '2024-07-01'
+		AND operation_datetime < '2024-08-01'
+	GROUP BY  
+		date_id
+),
+b AS (
+	SELECT 
+	pat.date_id,	
+	toUInt256(EXP(evalMLMethod(
+		pam.state,
+		pat.trend,
+		pat.DoW1,
+		pat.DoW2,
+		pat.DoW3,
+		pat.DoW4,
+		pat.DoW5,
+		pat.DoW6,
+		pat.DoW7
+	))) AS forecast		
+FROM 
+	sandbox.payment_agg_test pat
+	CROSS JOIN sandbox.payment_agg_model pam
+)
+SELECT  
+	a.date_id,  
+	a.amount AS amount,
+	b.forecast AS forecast,
+	round((amount - forecast) / amount, 2) AS fraction	
+FROM a 
+LEFT JOIN b ON a.date_id = b.date_id 
+ORDER BY 1
+;
