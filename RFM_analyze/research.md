@@ -3,5 +3,5 @@
 Подробное обоснование выбора метрик, логика расчета пороговых значений для сегментации клиентов аптечной сети и ход исследования зафиксированы в рабочем документе.
 
 ## 📊 Ссылка на исследование
-* [Google Документ: Ход решения и расчет порогов](https://google.com](https://docs.google.com/document/d/1mYPakjGK4dlKydBfP2SFefNB5kvt20n1bS8iT-snmKU/edit?tab=t.0)
+* [Google Документ: Ход решения и расчет порогов](https://docs.google.com/document/d/1mYPakjGK4dlKydBfP2SFefNB5kvt20n1bS8iT-snmKU/edit?usp=sharing)
 
