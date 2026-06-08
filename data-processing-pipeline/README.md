@@ -40,24 +40,22 @@ data-processing-pipeline/
 
 ## Архитектурная схема взаимодействия (Mermaid)
 
+```mermaid
 graph TD
-    %% Точка входа
     main[main.py] --> CM[core/config_manager.py]
     main --> LM[core/log_manager.py]
     
-    %% Поток данных
     main --> API[services/api_client.py]
     API -->|Сырые данные| DP[core/data_processor.py]
     DP -->|Очистка и расчет метрик| DB[services/database_manager.py]
     
-    %% Экспорт и уведомления
     DB -->|Метрики| GS[services/google_sheets_client.py]
     GS -->|Ссылка на отчет| ES[services/email_sender.py]
 
-    %% Стилизация
     style main fill:#f9f,stroke:#333,stroke-width:2px
     style DP fill:#bbf,stroke:#333,stroke-width:1px
     style DB fill:#bfb,stroke:#333,stroke-width:1px
+```
     
 ## Скриншоты и макеты отчетов
 
