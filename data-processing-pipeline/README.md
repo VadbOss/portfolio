@@ -6,21 +6,25 @@
 
 <pre>
 data-processing-pipeline/
+├── assets/
+│   ├── console_logs.png
+│   ├── email_report.png
+│   └── sheets_dashboard.png
 ├── core/
 │   ├── __init__.py
 │   ├── config_manager.py
-│   ├── log_manager.py
-│   └── data_processor.py
+│   ├── data_processor.py
+│   └── log_manager.py
 ├── services/
 │   ├── __init__.py
 │   ├── api_client.py
 │   ├── database_manager.py
-│   ├── google_sheets_client.py
-│   └── email_sender.py
-├── main.py
-├── requirements.txt
+│   ├── email_sender.py
+│   └── google_sheets_client.py
 ├── config.ini.example
-└── README.md
+├── main.py
+├── README.md
+└── requirements.txt
 </pre>
 
 ## ⚙️ Функциональность
