@@ -32,7 +32,36 @@ data-processing-pipeline/
 ✅ **Экспорт результатов** в Google Sheets  
 ✅ **Автоматическая отправка** отчетов по email  
 ✅ **Логирование** с очисткой старых логов  
-✅ **Обработка ошибок** на всех этапах  
+✅ **Обработка ошибок** на всех этапах 
+
+## Архитектурная схема взаимодействия (Mermaid)
+
+graph TD
+    %% Точка входа
+    main[main.py] --> CM[core/config_manager.py]
+    main --> LM[core/log_manager.py]
+    
+    %% Поток данных
+    main --> API[services/api_client.py]
+    API -->|Сырые данные| DP[core/data_processor.py]
+    DP -->|Очистка и расчет метрик| DB[services/database_manager.py]
+    
+    %% Экспорт и уведомления
+    DB -->|Метрики| GS[services/google_sheets_client.py]
+    GS -->|Ссылка на отчет| ES[services/email_sender.py]
+
+    %% Стилизация
+    style main fill:#f9f,stroke:#333,stroke-width:2px
+    style DP fill:#bbf,stroke:#333,stroke-width:1px
+    style DB fill:#bfb,stroke:#333,stroke-width:1px
+    
+## Скриншоты и макеты отчетов
+
+### 1. Скриншот 1 Google Sheets Дашборд
+
+### 2. Скриншот 2 Входящее e-mail уведомления
+
+### 3. Скриншот 3 Логи работы в консоли
 
 ## 🚀 Быстрый старт
 
