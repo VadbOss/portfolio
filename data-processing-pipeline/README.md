@@ -42,20 +42,34 @@ data-processing-pipeline/
 
 ```mermaid
 graph TD
+    %% Точка входа
     main[main.py] --> CM[core/config_manager.py]
     main --> LM[core/log_manager.py]
     
+    %% Поток данных
     main --> API[services/api_client.py]
     API -->|Сырые данные| DP[core/data_processor.py]
     DP -->|Очистка и расчет метрик| DB[services/database_manager.py]
     
+    %% Экспорт и уведомления
     DB -->|Метрики| GS[services/google_sheets_client.py]
     GS -->|Ссылка на отчет| ES[services/email_sender.py]
 
-    style main fill:#f9f,stroke:#333,stroke-width:2px
-    style DP fill:#bbf,stroke:#333,stroke-width:1px
-    style DB fill:#bfb,stroke:#333,stroke-width:1px
+    %% Стилизация популярных ИТ-оттенков
+    classDef default stroke:#4A5568,stroke-width:1px;
+    
+    style main fill:#2B6CB0,color:#fff,stroke:#1A365D,stroke-width:2px
+    
+    style CM fill:#4A5568,color:#fff,stroke:#2D3748
+    style LM fill:#4A5568,color:#fff,stroke:#2D3748
+    style DP fill:#3182CE,color:#fff,stroke:#2B6CB0
+    
+    style API fill:#319795,color:#fff,stroke:#234E52
+    style DB fill:#319795,color:#fff,stroke:#234E52
+    style GS fill:#319795,color:#fff,stroke:#234E52
+    style ES fill:#319795,color:#fff,stroke:#234E52
 ```
+
     
 ## Скриншоты и макеты отчетов
 
