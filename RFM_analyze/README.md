@@ -26,7 +26,7 @@
 
 ## Пороги признаков
 
-[🔗 Ссылка на подробный анализ порогов](https://docs.google.com/document/d/1mYPakjGK4dlKydBfP2SFefNB5kvt20n1bS8iT-snmKU/edit?tab=t.0) *<!-- Замените на реальную ссылку, если необходимо -->*
+[🔗 Ссылка на подробный анализ порогов](https://docs.google.com/document/d/1mYPakjGK4dlKydBfP2SFefNB5kvt20n1bS8iT-snmKU/edit?tab=t.0#bookmark=id.j2ggpptuoq4c) *<!-- Замените на реальную ссылку, если необходимо -->*
 
 
 | Признак | «1» | «2» | «3» | Как определялся |
