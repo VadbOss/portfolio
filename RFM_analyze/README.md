@@ -63,4 +63,4 @@
 * 📊 [Интерактивный дашборд в Metabase](https://metabase.simulative.ru/public/dashboard/1f4fe742-ca46-4fdc-846c-5de33531910d?all_options=&tab=116-tab-1)
 
 ### Автор:
-* @VadBOss
+* [@VadBOss]
