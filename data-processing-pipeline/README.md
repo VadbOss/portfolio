@@ -91,5 +91,5 @@ cd portfolio/data-processing-pipeline
 1. Скопируйте `config.ini.example` в `config.ini` и заполните настройки.
 2. Установите зависимости: `pip install -r requirements.txt`
 3. Запустите: `python main.py`
-
+```
 [@VadBOss](@VadBOss)
