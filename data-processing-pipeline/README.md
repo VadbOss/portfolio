@@ -92,3 +92,4 @@ cd portfolio/data-processing-pipeline
 2. Установите зависимости: `pip install -r requirements.txt`
 3. Запустите: `python main.py`
 
+[@VadBOss](@VadBOss)
