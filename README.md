@@ -29,3 +29,4 @@
 | 7 | **[retention, rolling_retention](https://github.com/VadbOss/portfolio/tree/main/retention%20rolling_retention)** | Анализ retention (rolling retention) удержания клиентов розничной аптечной сети. | PostgreSQL |
 | 8 | **[Интернет-магазин ПК](https://github.com/VadbOss/portfolio/tree/main/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D0%9F%D0%9A)** | Анализ продаж и формирование рекомендаций по сборке ПК из комплектующих на основе файлов продаж интернет-магазина. | Python (Pandas, NumPy, Re, Matplotlib, Seaborn, JSON, SciPy, Scikit-learn) |
 | 9 | **[Киноафиша](https://github.com/VadbOss/portfolio/tree/main/%D0%9A%D0%B8%D0%BD%D0%BE%D0%B0%D1%84%D0%B8%D1%88%D0%B0)** | Интерактивный дашборд для отображения киноафиши (формат .PDF). | PowerBI |
+### [Автор](@VadBOss)
