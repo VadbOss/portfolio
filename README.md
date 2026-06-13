@@ -7,7 +7,7 @@
 ---
 
 ### 🛠 Мой технологический стек и ключевые навыки:
-* **Языки и библиотеки:** Python (Pandas, NumPy, SciPy, Matplotlib, Seaborn, Requests, Smtplib)
+* **Языки и библиотеки:** Python (Pandas, NumPy, SciPy, Matplotlib, Seaborn, Requests)
 * **Базы данных и ETL:** SQL (PostgreSQL, Psycopg2), автоматизация пайплайнов и выгрузок
 * **APIs & Интеграции:** Google Sheets API, интеграция с внешними сервисами и Email-рассылками
 * **Методологии:** RFM-сегментация, ABC/XYZ-анализ, когортный анализ (классический Retention и Rolling Retention до 90 дней, Churn Rate)
