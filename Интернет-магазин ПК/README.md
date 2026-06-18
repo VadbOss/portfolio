@@ -13,5 +13,5 @@ from google.colab import files
 - sklearn.linear_model as lm
 - warnings
 
-  ### Автор
-  ### @VadbOss
+ ### Автор:
+[@VadBOss](@VadBOss)
