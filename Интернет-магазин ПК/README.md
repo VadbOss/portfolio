@@ -12,3 +12,6 @@ from google.colab import files
 - scipy.stats as stats
 - sklearn.linear_model as lm
 - warnings
+
+  ### Автор
+  ### @VadbOss
