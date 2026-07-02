@@ -298,4 +298,4 @@ round(count(distinct case when diff >= 3 then user_id end) * 100.0 /
 ---
 
 *📅 Дата выполнения анализа: 2025 год*
-*👤 [@VadBOss](@VadBOss)
+*👤 Автор [@VadBOss](@VadBOss)
