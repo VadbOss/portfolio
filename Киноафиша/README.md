@@ -60,7 +60,7 @@
 ---
 
 ## 🖼️ Скриншот дашборда
-*[Изображение](https://github.com/VadbOss/portfolio/blob/main/%D0%9A%D0%B8%D0%BD%D0%BE%D0%B0%D1%84%D0%B8%D1%88%D0%B0/%D0%9A%D0%B8%D0%BD%D0%BE%D0%B0%D1%84%D0%B8%D1%88%D0%B0%20(1).pdf)
+*[Изображение](https://github.com/VadbOss/portfolio/blob/main/%D0%9A%D0%B8%D0%BD%D0%BE%D0%B0%D1%84%D0%B8%D1%88%D0%B0/%D0%9A%D0%B8%D0%BD%D0%BE%D0%B0%D1%84%D0%B8%D1%88%D0%B0%20(1).pdf)*
 
 ---
 
