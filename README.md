@@ -20,7 +20,7 @@
 
 | Нумерация | Название проекта | Описание проекта | Стек |
 | :---: | :--- | :--- | :--- |
-| 1 | **[ABC_XYZ](../tree/main/ABC_XYZ%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7)** | Анализ клиентов аптечной сети. | PostgreSQL |
+| 1 | **[ABC_XYZ](../ABC_XYZ%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7)** | Анализ клиентов аптечной сети. | PostgreSQL |
 | 2 | **[Cohort_churn_rate](https://github.com/VadbOss/portfolio/tree/main/Cohort_churn_rate)** | Сегментация пользователей по неделе первого сеанса и анализ удержания. Определение ушедших пользователей (churned), если они не были активны 21 день подряд. | PostgreSQL |
 | 3 | **[Pythonproject](https://github.com/VadbOss/portfolio/tree/main/Pythonproject)** | Подключение по API к стороннему серверу, скачивание, трансформация и загрузка данных в локальную БД Postgres. Настройка работы с Google Sheets (создание ключей аутентификации и авторизация) и почтового сервиса для отправки итоговых данных. | Процедурный Python |
 | 4 | **[RFM_analyze](https://github.com/VadbOss/portfolio/tree/main/RFM_analyze)** | Классификация клиентов на основе RFM-анализа. Формирование рекомендаций по маркетинговым активностям для каждой группы пользователей. | PostgreSQL |
