@@ -18,8 +18,11 @@ class EmailSender:
         self.logger.info("Формируем письмо с результатами для отправки по почте")
         
         try:
+            
+            import certifi # добавлено для явного указания сертификатов
+            
             # Создаем безопасный контекст
-            context = ssl.create_default_context()
+            context = ssl.create_default_context(cafile=certifi.where()) # явно указываем на корневые сертификаты
             
             # Формируем письмо
             msg = EmailMessage()
