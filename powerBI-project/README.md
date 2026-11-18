@@ -74,6 +74,7 @@
 
 ## 📁 Структура репозитория
 
+```text
 powerBI-project/
 ├── README.md
 └── screenshots/
@@ -82,4 +83,5 @@ powerBI-project/
     ├── 03_stores.png
     ├── 04_loyalty.png
     └── 05_seasonality.png
+```
 
