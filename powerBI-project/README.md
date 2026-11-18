@@ -1,5 +1,5 @@
 # Аналитический дашборд продаж сети Магазинов (Power BI)
-[Посмотреть полный проект на 5 страницах (PDF)](./название_файла.pdf)
+[Посмотреть полный проект на 5 страницах (PDF)](https://github.com/VadbOss/portfolio/blob/main/powerBI-project/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82_PowerBI.pdf)
 
 ## 📌 О проекте
 
