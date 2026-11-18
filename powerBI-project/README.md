@@ -74,3 +74,12 @@
 
 ## 📁 Структура репозитория
 
+powerBI-project/
+├── README.md
+└── screenshots/
+    ├── 01_overview.png
+    ├── 02_dynamics.png
+    ├── 03_stores.png
+    ├── 04_loyalty.png
+    └── 05_seasonality.png
+
